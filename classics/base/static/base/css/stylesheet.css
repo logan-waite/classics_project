@@ -1,0 +1,37 @@
+#SubMenu {
+  display: none;
+  position: absolute;
+  left: 225px;
+  top: 51px;
+  background-color: ghostwhite;
+  box-shadow: 2px 2px 10px #000;
+  width: 225px;
+  overflow-x: hidden;
+}
+
+.submenu-wrapper {
+  width: 250px;
+  padding: 10px;
+
+}
+
+.submenu-wrapper ul {
+  padding: 0px;
+}
+
+.submenu-wrapper li{
+  list-style-type: none;
+}
+
+@media all and (max-width: 768px) {
+  #SubMenu {
+    display: none;
+    position: absolute;
+    left: 225px;
+    top: 51px;
+    background-color: ghostwhite;
+    box-shadow: 2px 2px 10px #000;
+    width: 225px;
+    overflow-x: hidden;  
+  }
+}
